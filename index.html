@@ -18,7 +18,7 @@
 
     <script> 
     liff.init({ liffId: "1660998535-xZKwODG1" })
-
+liff.ready.then(() => {
     liff.sendMessages([
         
     {
@@ -32,7 +32,7 @@
   .catch((err) => {
     console.log("error", err);
   });
-    
+}
     </script>
 
 
